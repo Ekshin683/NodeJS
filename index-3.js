@@ -11,3 +11,7 @@ app.get("/home",(req,res) => {
     console.log(req.url);
     res.send("response from server for /home")
 })
+app.get("/home/page1",(req,res) => {
+    console.log(req.url);
+    res.send("response from server for /home/page1")
+})
