@@ -1,5 +1,6 @@
 {
   "name": "nodejs",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,9 +14,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Ekshin683/NodeJS/issues"
   },
-  "homepage": "https://github.com/Ekshin683/NodeJS#readme"
+  "homepage": "https://github.com/Ekshin683/NodeJS#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
