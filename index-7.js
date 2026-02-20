@@ -38,7 +38,7 @@ app.post("/",(req,res) => {
 })
 
 app.delete("/:idx",(req,res) => {
-    const index = users.findIndex((user) => user.id === parseInt(req.params.idx));
-    const removed = users.splice(index, 1)[0];
+    users = users.filter((user) => user.id !== parseInt(req.params.idx));
+    // const removed = users.splice(index, 1)[0];
     res.json(users);
 })
