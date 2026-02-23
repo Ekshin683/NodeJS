@@ -1,5 +1,7 @@
+import { users } from '../models/usermodel.js';
+
 export const getUserData = (req, res) => {
-    res.send("Hello userController");
+    res.json(users);
 }
 
 export const postUserData = (req, res) => {
