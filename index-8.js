@@ -39,5 +39,5 @@ app.post("/",(req,res) => {
     // console.log(req.body);
     const user = req.body;
     users.push(user);
-    res.json(users);
+    res.status(201).json(users);
 })
