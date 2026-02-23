@@ -25,24 +25,3 @@ app.listen(8080, () => {
 // })
 app.use("/api/users",userRouter);
 app.use("/api/products", productRouter);
-
-// let users = [
-//     {
-//         id:1,
-//         name:"Ekshin",
-//         email:"ekshin@gmail.com",
-//         role:"student"
-//     },
-//     {
-//         id:2,
-//         name:"Ajay",
-//         email:"ajay@gmail.com",
-//         role:"student"
-//     },
-//     {
-//         id:3,
-//         name:"Sumanth",
-//         email:"sumanth@gmail.com",
-//         role:"student"
-//     }
-// ]
